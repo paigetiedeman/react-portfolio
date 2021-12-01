@@ -42,7 +42,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Passion for building creative UI/UX front and back end applications.
+                Passion for building creative UI/UX full-stack applications.
               </span>
             </span>
           </div>
@@ -51,7 +51,7 @@ export default function Profile() {
               {" "}
               Hire Me{" "}
             </button>
-            <a href="PortfolioResume.pdf" download="Paige's PortfolioResume.pdf">
+            <a href="PortfolioResume.pdf" download="Paige PortfolioResume.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
