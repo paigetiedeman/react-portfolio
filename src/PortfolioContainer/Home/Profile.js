@@ -1,5 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
+import './Profile.css';
 
 export default function Profile() {
   return (
@@ -7,14 +8,15 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
+            <div className="colz-icon">
             <a href="https://www.linkedin.com/in/paige-tiedeman">
               <i className="fa fa-linkedin"></i>
             </a>
             <a href="https://github.com/paigetiedeman">
               <i className="fa fa-github-square"></i>
             </a>
+            </div>
           </div>
-
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
@@ -44,7 +46,7 @@ export default function Profile() {
               </span>
             </span>
           </div>
-          <div className="profile-optins">
+          <div className="profile-options">
             <button className="btn primary-btn">
               {" "}
               Hire Me{" "}
@@ -52,6 +54,11 @@ export default function Profile() {
             <a href="PortfolioResume.pdf" download="Paige's PortfolioResume.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
+          </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background">
+
           </div>
         </div>
       </div>
