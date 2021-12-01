@@ -20,7 +20,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'm <span className="highlighted-text">Paige</span>
+              Console.log<span className="highlighted-text">(Hello, I'm Paige!);</span>
             </span>
           </div>
           <div className="profile-details-role">
