@@ -5,7 +5,6 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  background-image: url('../../assets//Home/bg.jpg');
 }
 
 .profile-parent {
@@ -39,7 +38,7 @@
 }
 
 .profile-role-tagline {
-  font-size: 19px;
+  font-size: 18px;
   margin: 5px 0 0 0;
   font-family: "Poppins Light";
 }
@@ -69,7 +68,7 @@
   height: 92%;
   width: 92%;
   border-radius: 50%;
-  background-image: url("../../assets/Home/profile.jpg");
+  background-image: url("../../../assets/Home/profile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -124,7 +123,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .proflie-details {
+  .profile-details {
     margin: 25px 0 0;
   }
   .profile-options .highlighted-btn {
@@ -142,7 +141,7 @@
     width: 275px;
     margin-top: -90px;
   }
-  .proflie-details {
+  .profile-details {
     width: 95%;
   }
 }

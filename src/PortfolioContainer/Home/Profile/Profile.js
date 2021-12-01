@@ -1,6 +1,6 @@
-import React from 'react';
-import Typical from 'react-typical';
-import './Profile.css';
+import React from "react";
+import Typical from "react-typical";
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -10,10 +10,10 @@ export default function Profile() {
           <div className="colz">
             <div className="colz-icon">
             <a href="https://www.linkedin.com/in/paige-tiedeman">
-              <i className="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin fa-lg"></i>
             </a>
             <a href="https://github.com/paigetiedeman">
-              <i className="fa fa-github-square"></i>
+              <i className="fa fa-github-square fa-lg"></i>
             </a>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Passion for building user-friendly designed front and back end applications.
+                Passion for building creative UI/UX front and back end applications.
               </span>
             </span>
           </div>
