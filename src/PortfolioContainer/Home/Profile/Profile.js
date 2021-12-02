@@ -17,6 +17,7 @@ export default function Profile() {
             </a>
             </div>
           </div>
+          <br />
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
@@ -47,12 +48,12 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
+            <button className="btn primary-btn but">
               {" "}
               Hire Me{" "}
             </button>
             <a href="PortfolioResume.pdf" download="PortfolioResume.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
+              <button className="btn highlighted-btn but">View Resume</button>
             </a>
           </div>
         </div>
