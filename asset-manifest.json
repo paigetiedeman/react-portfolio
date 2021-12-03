@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.18b1c97f.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c0d24c90.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c0d24c90.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.faccfe53.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.faccfe53.js.map",
-    "static/js/2.201aec8a.chunk.js": "/react-portfolio/static/js/2.201aec8a.chunk.js",
-    "static/js/2.201aec8a.chunk.js.map": "/react-portfolio/static/js/2.201aec8a.chunk.js.map",
-    "static/js/3.5eaea4ed.chunk.js": "/react-portfolio/static/js/3.5eaea4ed.chunk.js",
-    "static/js/3.5eaea4ed.chunk.js.map": "/react-portfolio/static/js/3.5eaea4ed.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c1913b04.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.23909908.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.23909908.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.a6767111.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.a6767111.js.map",
+    "static/js/2.b48c4119.chunk.js": "/react-portfolio/static/js/2.b48c4119.chunk.js",
+    "static/js/2.b48c4119.chunk.js.map": "/react-portfolio/static/js/2.b48c4119.chunk.js.map",
+    "static/js/3.b3984522.chunk.js": "/react-portfolio/static/js/3.b3984522.chunk.js",
+    "static/js/3.b3984522.chunk.js.map": "/react-portfolio/static/js/3.b3984522.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.18b1c97f.chunk.css.map": "/react-portfolio/static/css/main.18b1c97f.chunk.css.map",
-    "static/js/2.201aec8a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.201aec8a.chunk.js.LICENSE.txt",
+    "static/css/main.c1913b04.chunk.css.map": "/react-portfolio/static/css/main.c1913b04.chunk.css.map",
+    "static/js/2.b48c4119.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b48c4119.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-portfolio/static/media/Poppins-Thin.a61eaf4c.ttf",
     "static/media/Home.css": "/react-portfolio/static/media/bg.bac5a643.jpg",
     "static/media/AboutMe.css": "/react-portfolio/static/media/graduation.0cdf4884.jpg",
     "static/media/Profile.css": "/react-portfolio/static/media/profile.dcd9dc9e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.faccfe53.js",
-    "static/js/2.201aec8a.chunk.js",
-    "static/css/main.18b1c97f.chunk.css",
-    "static/js/main.c0d24c90.chunk.js"
+    "static/js/runtime-main.a6767111.js",
+    "static/js/2.b48c4119.chunk.js",
+    "static/css/main.c1913b04.chunk.css",
+    "static/js/main.23909908.chunk.js"
   ]
 }
