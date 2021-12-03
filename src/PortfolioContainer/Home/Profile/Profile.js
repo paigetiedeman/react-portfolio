@@ -48,12 +48,12 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn but">
+            <button className="btn primary-btn">
               {" "}
               Hire Me{" "}
             </button>
             <a href="PortfolioResume.pdf" download="PortfolioResume.pdf">
-              <button className="btn highlighted-btn but">View Resume</button>
+              <button className="btn highlighted-btn">Download Resume</button>
             </a>
           </div>
         </div>
