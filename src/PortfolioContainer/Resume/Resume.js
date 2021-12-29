@@ -66,11 +66,18 @@ const Resume = (props) => {
     { skill: "Node JS", ratingPercentage: 75 },
     { skill: "MySQL", ratingPercentage: 70 },
     { skill: "HTML5", ratingPercentage: 85 },
-    { skill: "SASS", ratingPercentage: 70 },
+    { skill: "Semantic UI", ratingPercentage: 75 },
     { skill: "Git Workflow", ratingPercentage: 90 },
   ];
 
   const projectsDetails = [
+    {
+      title: "Capstone - Elevate Everyday",
+      duration: { fromDate: "2021", toDate: "2022" },
+      description:
+        "Full CRUD for Workouts with designed Blog component.",
+      subHeading: "Technologies Used: React JS, Bootstrap, Semantic UI, React-Router, Redux",
+    },
     {
       title: "Tap Room - Summer's Seltzery",
       duration: { fromDate: "2020", toDate: "2021" },
@@ -132,24 +139,20 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+            - Pioneered a 6+ team strategy that brought in $5 million within the first year. 
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
+            - Analyzed internal data to manipulate and build reports to make data-driven decisions based on consumer buying patterns. 
           </span>
           <br />
           <span className="resume-description-text">
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
+            - Collaborated with cross-functional teams to execute 150+ dynamic and engaging events on an e-commerce platform monthly.{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
+            - Managed 20 international vendors to build relationships, secure inventory, and develop cost reductions to exceed margin goals.
           </span>
           <br />
         </div>
@@ -190,16 +193,16 @@ const Resume = (props) => {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
+        heading="Travel"
+        description="I enjoy exploring places unknown and off the beaten path, when not coding I'm probably planning my next solo backpacking trip."
+      />
+      <ResumeHeading
         heading="Reading"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        description="My best stress reliever is starting a new book that I can't put down, whether that be a thriller or the latest from my book club group."
       />
       <ResumeHeading
         heading="Special Effects Makeup"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
-      />
-      <ResumeHeading
-        heading="Travel"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        description="Being both analytical and creative help to shape my code abilities and to let myself express my creative side I dabble in SFX makeup. While I have no training I find it easy enough to find videos and teach myself new techniques."
       />
     </div>,
   ];
@@ -224,11 +227,11 @@ const Resume = (props) => {
         }
         key={index}
       >
-        {/* <img
+        <img
           className="bullet-logo"
           src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
           alt="B"
-        /> */}
+        />
         <span className="bullet-label">{bullet.label}</span>
       </div>
     ));
@@ -257,7 +260,7 @@ const Resume = (props) => {
       id={props.id || ""}
     >
       <div className="resume-content">
-        <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
+        <ScreenHeading title={"Resume"} subHeading={"My Bio Details"} />
         <div className="resume-card">
           <div className="resume-bullets">
             <div className="bullet-container">
