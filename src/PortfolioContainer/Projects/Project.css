@@ -31,57 +31,13 @@
   height: 150px;
 }
 
-.project-section .project-item {
-  background-color: white;
-  padding: 30px;
-  border-radius: 50px 50px 50px 0px;
+.work-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; 
 }
 
-.project-section .project-item p {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  margin: 0 0 10px;
-  font-style: italic;
-}
-.project-section .project-item p .fa-quote-left {
-  margin-right: 5px;
-  color: tomato;
-}
-.project-section .project-item p .fa-quote-right {
-  margin-left: 5px;
-  color: tomato;
-}
 
-.project-section .client-info {
-  text-align: center;
-  /* padding-left: 80px; */
-  min-height: 80px;
-}
-.project-section .client-info img {
-  height: 130px;
-  width: 228px;
-  border: 2px solid transparent;
-  border-color: black;
-  left: 0;
-  top: 0;
-  border-radius: 15%;
-
-}
-.project-section .client-info h5 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 26px;
-  /* margin: 0 0 2px; */
-}
-.project-section .client-info p {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  /* margin: 0; */
-}
-
-.project-link a{
-  display: block;
-}

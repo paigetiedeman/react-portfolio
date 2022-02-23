@@ -1,0 +1,37 @@
+.project-card {
+  width: 380px;
+  height: 250px;
+}
+
+.project-card img {
+  -webkit-transform: translate(0, 20px);
+          transform: translate(0, 20px);
+  text-align: center;
+}
+
+.project-card .content {
+  text-align: center;
+  padding: 10px;
+  -webkit-transform: translate(0, 20px);
+          transform: translate(0, 20px);
+  cursor: pointer;
+}
+
+.project-card .content h1 {
+  font-size: 18px;
+  color: white;
+}
+
+.project-card .content p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.project-card .content .btn {
+  background-color: #ff5823;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Card.css.map */

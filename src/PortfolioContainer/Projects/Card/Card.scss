@@ -1,0 +1,35 @@
+.project-card {
+  width: 380px;
+  height: 250px;
+  // overflow: hidden !important;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  img {
+    transform: translate(0, 20px);
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+    padding: 10px;
+    // opacity: 0;
+    transform: translate(0, 20px);
+    cursor: pointer;
+    h1 {
+      font-size: 18px;
+      color: white;
+    }
+    p {
+      font-size: 14px;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #ff5823;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+  }
+}
