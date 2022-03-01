@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from './Card/Card.js';
-import projects from './Data.js';
+import shape from '../../assets/Project/shape-bg.png';
+import Animations from '../../utilities/Animations';
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../utilities/ScrollService';
-import Animations from '../../utilities/Animations';
+import Card from './Card/Card.js';
+import { projects } from './Data.js';
 import './Project.css';
-import shape from '../../assets/Project/shape-bg.png';
 
 export default function Project(props) {
   let fadeInScreenHandler = (screen) => {
@@ -25,16 +25,19 @@ export default function Project(props) {
       <section className="project-section fade-in" id={props.id || ''}>
         <div className="container">
           <div className="work-wrapper" id="Project-carousel">
-            {projects.map((project, index) => (
-              <Card
-                key={index}
-                heading={project.title}
-                paragraph={project.para}
-                imgUrl={project.imageSrc}
-                projectLink={project.url1}
-                projectCode={project.url2}
-              ></Card>
-            ))}
+            <div className="cards card-deck">
+              {projects.map((project) => (
+                <Card
+                  key={project.id}
+                  id={project.id}
+                  title={project.title}
+                  para={project.para}
+                  imageSrc={project.imageSrc}
+                  url1={project.url1}
+                  url2={project.url2}
+                ></Card>
+              ))}
+            </div>
           </div>
         </div>
       </section>

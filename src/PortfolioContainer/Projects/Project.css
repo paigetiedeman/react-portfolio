@@ -1,6 +1,5 @@
 .project-section {
-  padding: 80px 0 80px;
-  background-image: url("../../../src/assets/Project/bg-1.jpg");
+  padding: 80px 0 100px;
   background-position: center;
   background-attachment: fixed;
   position: relative;
@@ -14,7 +13,7 @@
   width: 100%;
   height: 100%;
   /* z-index: -1; */
-  opacity: 0.85;
+  /* opacity: 0.85; */
   background-color: #1f2235;
 }
 .footer-image {
@@ -28,16 +27,5 @@
 }
 .footer-image img {
   max-width: 100%;
-  height: 150px;
+  height: 140px;
 }
-
-.work-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px; 
-}
-
-

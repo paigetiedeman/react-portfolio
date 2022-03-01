@@ -1,34 +1,31 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Card.css';
 
-const Card = ({ heading, paragraph, imgUrl, projectLink, projectCode }) => {
+export default function Card(props) {
+  
   return (
-    <div
-      className="project-card"
-      >
-        <img src={`${imgUrl}`} alt="Error"/>
+    <div className="project-card card col">
       <div className="content">
-        <h1 className="header">{heading}</h1>
-        <p className="text">{paragraph}</p>
-        <a
-          href={projectLink ? projectLink : '#'}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
+        <img src={`${props.imageSrc}`} alt="Error" className="card-img-top"/>
+        <h1 className="header">{props.title}</h1>
+        <p className="text">{props.para}</p>
+        <a href={props.url1} className="btn" target="_blank" rel="noreferrer">
           Explore
         </a>
-        <a
-          href={projectCode ? projectCode : '#'}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
+        <a href={props.url2} className="btn" target="_blank" rel="noreferrer">
           See Code
         </a>
       </div>
     </div>
   );
-};
+}
 
-export default Card;
+Card.propTypes = {
+  title: PropTypes.string,
+  para: PropTypes.string,
+  imageSrc: PropTypes.any,
+  url1: PropTypes.string,
+  url2: PropTypes.string,
+  id: PropTypes.string,
+};
