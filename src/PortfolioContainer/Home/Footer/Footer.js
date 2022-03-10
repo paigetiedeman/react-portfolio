@@ -8,7 +8,7 @@ export default function Footer() {
   let socialDetails = [
     {
       icon: faLinkedin,
-      link: 'https://www.linkedin.com/in/okwuose-ehiedu-7b8923198/',
+      link: 'https://www.linkedin.com/in/paige-tiedeman/',
     },
     { icon: faGithub, link: 'https://github.com/paigetiedeman' },
   ];
