@@ -3,7 +3,7 @@
   background-position: center;
   background-attachment: fixed;
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
 }
 .project-section::before {
   content: "";
@@ -12,8 +12,6 @@
   top: 0;
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
-  /* opacity: 0.85; */
   background-color: #1f2235;
 }
 .footer-image {
@@ -27,5 +25,5 @@
 }
 .footer-image img {
   max-width: 100%;
-  height: 140px;
+  height: 130px;
 }
