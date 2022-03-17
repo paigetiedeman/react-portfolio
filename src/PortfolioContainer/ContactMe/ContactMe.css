@@ -1,7 +1,6 @@
 .main-container {
-  min-height: 100vh;
+  min-height: 60vh;
   /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
-
   opacity: 0.1;
 }
 
@@ -19,7 +18,7 @@
 
 .central-form h2 {
   color: #fff;
-  font-family: "Poppins Bold";
+  font-family: 'Poppins Bold';
   letter-spacing: 0.2rem;
   margin-bottom: 20px;
 }
@@ -71,7 +70,7 @@ form p {
   margin-bottom: 10px;
   color: #ff5823;
   letter-spacing: 0.1rem;
-  font-family: "Poppins Bold";
+  font-family: 'Poppins Bold';
 }
 
 form label {
@@ -124,6 +123,10 @@ form button:hover {
   border: 2px solid #1f2235;
 }
 
+form button .fa-spinner {
+  padding-left: 10px;
+}
+
 button .load {
   width: 100%;
 }
@@ -145,7 +148,7 @@ button .load img {
   .img-back {
     flex: 1;
     align-self: center;
-    margin-right: 20px;
+    margin: 0px 20px 20px 20px;
   }
 
   form {

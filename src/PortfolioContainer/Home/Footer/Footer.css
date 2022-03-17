@@ -39,9 +39,27 @@
   }
 }
 .social-icon:hover {
-  color: blue;
+  color: #ff5823;
 }
 
+.home-button {
+  outline: none;
+  padding: 5px;
+  width: 900px;
+  color: rgb(230, 227, 227);
+  border: 2px solid #ff5823;
+  font-size: 12px;
+  border-radius: 19px;
+  background-color: #1f2235;
+  font-size: 18px;
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-button i {
+  color: white;
+}
 /* IPAD PRO RESPONSIVENESS */
 @media only screen and (max-width: 1110px) {
   .main-footer-content {

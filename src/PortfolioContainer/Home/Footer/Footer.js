@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ScrollService from '../../../utilities/ScrollService';
 
 export default function Footer() {
   /* SOCIALS STATIC DATA */
@@ -37,6 +38,9 @@ export default function Footer() {
           <span> All rights reserved © Paige Tiedeman {currentYear} </span>
         </div>
         <div className="main-footer-socials">{getSocials()}</div>
+        <button className="home-button" onClick={() => ScrollService.scrollHandler.scrollToHome()}>
+          Back to Top
+        </button>
       </div>
     </div>
   );

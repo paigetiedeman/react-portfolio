@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from './Profile/Profile';
 import Header from './Header/Header';
-import Footer from './Footer/Footer';
+// import Footer from './Footer/Footer';
 import './Home.css';
 
 export default function Home(props) {
@@ -9,7 +9,7 @@ export default function Home(props) {
     <div className="home-container" id={props.id || ''}>
       <Header />
       <Profile />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
